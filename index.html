@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins',sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(10, 24, 36);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a{
+       text-decoration: none;
+       color: white;
+      }
+      nav ul li a:hover{
+       color: rgb(21, 21, 92);
+      }
+
+
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+
+        background-color: rgb(0, 0, 33);       
+        font-size: 3rem;
+        margin: 30px 0;
+      }
+      .rightSection img {
+        width: 404.7px;
+        height: 300px;
+       
+        
+        
+      }
+      .orange{
+        color: rgb(182, 116, 41);
+      }
+      .rightSection{
+        background-color: aliceblue;
+      }
+      #mat{
+        width: 404.7px;
+        height: 303.5px;
+      }
+      
+    </style><a href="./"></a>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">KAUSTUBH PAWAR</div>
+        <div class="right">
+          <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="https://github.com/kaustubhvpawar">Github-Link</a></li>
+            
+            </div></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="firstSection">
+          <div class="leftSection">
+            <span id="element"></span>
+            
+           
+
+          </div>
+          
+        </div>
+        
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Hi My name is <span class="orange">Kaustubh</span> and Welcome to My Portfolio,<br>Click and Browse My Projects'],
+          typeSpeed: 30,
+        });
+      </script>
+  </body>
+</html>
